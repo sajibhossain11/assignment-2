@@ -1,4 +1,8 @@
 
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
 header{
     background-color: rgba(255, 144, 14, 0.1);
 }
@@ -35,15 +39,21 @@ ul li{
 .brand h2{
     font-size: 35px;
 }
+.brand p{
+    font-size: 12px;
+}
 
 .explore{
-    width: 120px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
     border-radius: 6px;
-    background-color: #f39a35;
+    background-color: #f5870a;
     border: none;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 .img-header{
     height: 700px;
@@ -90,7 +100,7 @@ love & enjoy
 section2------------ */
 .features-love-grid{
     display: flex;
-    gap: 30px;
+    gap: 60px;
     justify-content: center;
     align-items: center;
 }
@@ -106,9 +116,10 @@ section2------------ */
 }
 .feature-love-description{
     margin-bottom: 10px;
-    border: 1px solid black;
+    
     box-shadow: ;
     padding: 15px;
+    box-shadow: 20px 20px 50px grey;
 }
 .feature-love-description h4{
     font-size: 20px;
@@ -124,6 +135,9 @@ section2------------ */
 }
 
 /* ---section3 some facts---- */
+.section3{
+    margin-bottom: 150px;
+}
 .some-facts-container, .section4-container{
     display: flex;
     flex-direction: column;
@@ -151,6 +165,7 @@ section2------------ */
     margin-left: 50px;
     margin-top: 50px;
     padding: 10px;
+    border-radius: 6px;
 }
 .box h3{
     font-size: 25px;
@@ -186,9 +201,10 @@ section2------------ */
 .footer{
     width: 1200px;
     height: 70px;
-    background-color: #FFF4E7;
+    background-color: rgba(255, 144, 14, 0.1);
     text-align: center;
     margin-left: 500px;
+    margin-top: 200px;
     padding-top: 25px;
 
     
