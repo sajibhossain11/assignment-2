@@ -100,7 +100,7 @@ love & enjoy
 section2------------ */
 .features-love-grid{
     display: flex;
-    gap: 60px;
+    gap: 120px;
     justify-content: center;
     align-items: center;
 }
@@ -120,7 +120,7 @@ section2------------ */
     height: 150px;
     background-color: #f7ac57;
     position: absolute;
-    left: 1050px;
+    left: 1400px;
     right: ;
     top: 2700px;
     border-radius: 10px;
@@ -159,7 +159,7 @@ section2------------ */
     display: flex;
     flex-direction: column;
     align-items: ;
-    margin-left: 480px;
+    margin-left: 800px;
     margin-top: 60px;
     
 }
@@ -227,7 +227,7 @@ section2------------ */
     height: 70px;
     background-color: rgba(255, 144, 14, 0.1);
     text-align: center;
-    margin-left: 500px;
+    margin-left: 800px;
     margin-top: 200px;
     padding-top: 25px;
 
