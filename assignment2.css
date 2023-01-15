@@ -54,8 +54,8 @@ ul li{
 /*------------ Quick list of Our 
 ------------------section 1------------------ */
 .section1{
-    margin: 0 auto;
-    display: block;
+    margin-top: 80px;
+    margin-bottom: 120px;
 }
 .Quick-list-flex{
     display: flex;
@@ -118,6 +118,10 @@ section2------------ */
     font-size: 30px;
     
 }
+.feature-love-description1 h4{
+    border-left: 6px solid rgb(223, 129, 15);
+    padding-left: 10px;
+}
 
 /* ---section3 some facts---- */
 .some-facts-container, .section4-container{
@@ -176,4 +180,16 @@ section2------------ */
 }
 .logo img{
     color: gray;
+}
+
+/* footer--------------------- */
+.footer{
+    width: 1200px;
+    height: 70px;
+    background-color: #FFF4E7;
+    text-align: center;
+    margin-left: 500px;
+    padding-top: 25px;
+
+    
 }
