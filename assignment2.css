@@ -84,3 +84,96 @@ ul li{
 .quick-description h3 .yellow{
     color: #da7808;
 }
+
+/* --------Features you will
+love & enjoy
+section2------------ */
+.features-love-grid{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.feature-love-5flex{
+    width: 550px;
+    height: 900px;
+    
+}
+.arc-pic img{
+    width: 550px;
+    height: 900px;
+
+}
+.feature-love-description{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    box-shadow: ;
+    padding: 15px;
+}
+.feature-love-description h4{
+    font-size: 20px;
+
+}
+.feature-love-description1 h4, .some-facts h3, .sponsors h3{
+    font-size: 30px;
+    
+}
+
+/* ---section3 some facts---- */
+.some-facts-container, .section4-container{
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    margin-left: 480px;
+    margin-top: 60px;
+    
+}
+.some-facts, .sponsors{
+    width: 500px;
+   
+}
+
+.box-container, .logo-container{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    
+}
+.box{
+    border: 3px solid tomato;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.box h3{
+    font-size: 25px;
+}
+.box p{
+    font-weight: 600;
+}
+
+/* -----section4--------- */
+.section4-container{
+
+}
+.sponsors{
+    margin-left: 300px;
+    text-align: center;
+
+}
+.logo-container{}
+
+.logo{
+    width: 140px;
+    height: 120px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+.logo img{
+    color: gray;
+}
