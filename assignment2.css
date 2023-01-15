@@ -183,6 +183,13 @@ section2------------ */
     margin-top: 50px;
     padding: 10px;
     border-radius: 6px;
+    transition: width 4s linear 1s, height 1s, transform 4s;
+}
+.box:hover{
+    width: 250px;
+    height: 250px;
+    background-color: cadetblue;
+    transform: rotate(180deg);
 }
 .box h3{
     font-size: 25px;
