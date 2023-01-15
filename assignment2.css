@@ -122,7 +122,7 @@ section2------------ */
     position: absolute;
     left: 1050px;
     right: ;
-    top: 2750px;
+    top: 2700px;
     border-radius: 10px;
 }
 .larachara p {
@@ -224,5 +224,96 @@ section2------------ */
     margin-top: 200px;
     padding-top: 25px;
 
+    
+}
+
+/* -----------responsiveness------------- */
+@media only screen and (max-width:576px) {
+    .header-container-div{
+        margin-left: 0;
+    }
+    ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .g3-ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .brand{
+        width: 300px;
+        height: 200px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .img-header img{
+        height: 400px;
+        width: 400px;
+        margin-bottom: 100px;
+        margin-top: 80px;
+    }
+    .four-pic, .arc-pic{
+        width: 30px;
+        height: 100px;
+        margin-bottom: 150px;
+        
+
+    }
+    .Quick-list-flex{
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        
+        
+    }
+    .Quick-pic-grid, .features-love-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100px;
+    }
+    .quick-description, .feature-love-description{
+        width: 200px;
+        margin-left: 300px;
+    }
+    .box-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .some-facts-container{
+        margin-top: 600px;
+        margin-left: 0;
+    }
+    .some-facts{
+        margin-left: 0;
+        width: 300px;
+    }
+    .section4-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .sponsors{
+        margin-left: 0;
+        width: 300px;
+        
+    }
+    .logo-container{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .footer{
+        width: 300px;
+        height: 70px;
+        margin-left: 0px;
+        margin-top: 100px;
+        
+    }
+
+    
+   
+    
     
 }
