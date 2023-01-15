@@ -112,7 +112,24 @@ section2------------ */
 .arc-pic img{
     width: 550px;
     height: 900px;
+    position: relative;
 
+}
+.larachara{
+    width: 250px;
+    height: 150px;
+    background-color: #f7ac57;
+    position: absolute;
+    left: 1050px;
+    right: ;
+    top: 2750px;
+    border-radius: 10px;
+}
+.larachara p {
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    padding-left: 30px;
 }
 .feature-love-description{
     margin-bottom: 10px;
