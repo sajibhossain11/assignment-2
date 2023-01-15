@@ -51,3 +51,36 @@ ul li{
     margin: 0 auto;
 }
     
+/*------------ Quick list of Our 
+------------------section 1------------------ */
+.section1{
+    margin: 0 auto;
+    display: block;
+}
+.Quick-list-flex{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Quick-pic-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.Quick-pic-grid img{
+    height: 300px;
+    width: 300px;
+}
+.quick-description h3{
+    font-weight: 500;
+    font-size: 35px;
+}   
+.quick-description h3 .bold{
+    font-weight: bolder;
+    
+}
+.quick-description h3 .yellow{
+    color: #da7808;
+}
